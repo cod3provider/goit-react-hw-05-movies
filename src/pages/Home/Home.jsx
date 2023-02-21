@@ -13,7 +13,7 @@ const Home = () => {
     const renderTrendingMovies = async () => {
       try {
         const trendingMovies = await getTrendingMovies();
-        console.log(trendingMovies);
+        // console.log(trendingMovies);
         setTrendingMovies(trendingMovies);
       } catch (error) {
         console.log(error);
