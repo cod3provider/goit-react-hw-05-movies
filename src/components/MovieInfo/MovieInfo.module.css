@@ -1,0 +1,30 @@
+.wrapper {
+  margin-top: 25px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.pictureThumb {
+  margin-right: 25px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.infoTitle {
+  font-weight: 700;
+}
+
+.picture {
+  width: 500px;
+}
+
+p {
+  margin: 15px 0 0;
+}

@@ -1,0 +1,37 @@
+.header {
+  font-size: 25px;
+}
+
+.nav {
+  padding: 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.link {
+  padding: 20px 0;
+
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+
+  transition: color 350ms linear;
+}
+
+.link:hover {
+  color: #4f8849;
+}
+
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link:global(.active) {
+  color: #06739f;
+  font-weight: 700;
+
+  transition: color 350ms linear;
+}
+
+.link:global(.active):hover {
+  color: #4f8849;
+}
