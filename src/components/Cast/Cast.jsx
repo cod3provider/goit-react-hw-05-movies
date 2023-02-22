@@ -17,8 +17,8 @@ const Cast = () => {
     .catch(error => console.log(error))
   }, [movieId]);
 
-  if (!cast) {
-    return "We don't have any cast information on this movie.";
+  if (cast.length === 0) {
+    return "We don't have any cast information on this movie."
   }
 
   const castItem = cast.map(({ id, profile_path, name, character }) => (

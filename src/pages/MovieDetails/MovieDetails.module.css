@@ -2,16 +2,12 @@
   padding: 20px 15px;
 }
 
-
-
-
 .backButton {
   padding: 5px 15px;
   font-size: 16px;
   font-weight: 500;
   color: #242d31;
   text-decoration: none;
-  /*background: #4f8849;*/
   border: 2px solid black;
   border-radius: 10px;
 
@@ -23,8 +19,6 @@
 }
 
 .infoWrap {
-  display: flex;
-  justify-content: center;
   margin-top: 25px;
 }
 
